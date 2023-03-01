@@ -1,5 +1,4 @@
-﻿using Manganese.Text;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 namespace Abp.Mirai.Common.Data.Messages;
@@ -22,7 +21,7 @@ public record MessageBase
     /// <returns></returns>
     public override string ToString()
     {
-        return this.ToJsonString();
+        return JsonConvert.SerializeObject(this);
     }
 
     /// <summary>

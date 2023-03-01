@@ -1,29 +1,28 @@
-﻿using System;
-using System.ComponentModel;
-using System.Linq;
+﻿using System.ComponentModel;
 
-namespace Mirai.Net.Utils.Internal;
-
-internal static class EnumeratedTypeUtils
+namespace Abp.Mirai.Http.Utils.Internal
 {
-    /// <summary>
-    ///     获取某枚举值的Description attribute值，如果没有这个特性则直接返回该值的ToString
-    /// </summary>
-    /// <param name="t"></param>
-    /// <returns></returns>
-    internal static string GetDescription(this Enum t)
+    internal static class EnumeratedTypeUtils
     {
-        //stackoverflow oriented programming
-        //https://stackoverflow.com/questions/630803/associating-enums-with-strings-in-c-sharp
-
-        return t
-            .GetType()
-            .GetField(t.ToString())
-            .GetCustomAttributes(typeof(DescriptionAttribute), false) is DescriptionAttribute[]
+        /// <summary>
+        ///     获取某枚举值的Description attribute值，如果没有这个特性则直接返回该值的ToString
+        /// </summary>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        internal static string GetDescription(this Enum t)
         {
-            Length: > 0
-        } attributes
-            ? attributes.First().Description
-            : t.ToString();
+            //stackoverflow oriented programming
+            //https://stackoverflow.com/questions/630803/associating-enums-with-strings-in-c-sharp
+
+            return t
+                .GetType()
+                .GetField(t.ToString())
+                .GetCustomAttributes(typeof(DescriptionAttribute), false) is DescriptionAttribute[]
+            {
+                Length: > 0
+            } attributes
+                ? attributes.First().Description
+                : t.ToString();
+        }
     }
 }

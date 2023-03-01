@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Abp.Mirai.Http.Data.Sessions;
+namespace Abp.Mirai.Http.Infrastructure.Sessions;
 
 /// <summary>
 ///     http请求端点

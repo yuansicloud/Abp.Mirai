@@ -1,5 +1,4 @@
 ﻿using Abp.Mirai.Common.Data.Messages.Concretes;
-using Manganese.Text;
 
 namespace Abp.Mirai.Common.Data.Messages;
 
@@ -31,7 +30,7 @@ public partial class MessageChain : List<MessageBase>
         if (!plain.Any())
             return string.Empty;
 
-        return plain.Select(x => x.Text).JoinToString("");
+        return plain.Select(x => x.Text).JoinAsString("");
     }
 
     /// <summary>
