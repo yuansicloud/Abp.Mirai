@@ -1,5 +1,7 @@
 ﻿using Abp.Mirai.Common.Data.Messages;
 using Abp.Mirai.Common.Services;
+using Abp.Mirai.Http.Infrastructure.Sessions;
+using Abp.Mirai.Http.Utils.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,9 +42,25 @@ namespace Abp.Mirai.Http.Services
             throw new NotImplementedException();
         }
 
-        public Task<string> SendFriendMessageAsync(string friendId, MessageChain chain, string? qq = null)
+        public async Task<string> SendFriendMessageAsync(string friendId, MessageChain chain, string? qq = null)
         {
-            throw new NotImplementedException();
+            var payload = new
+            {
+                target = friendId,
+                messageChain = chain
+            };
+
+            var jObj = await MiraiHttpApiRequester.RequestAsync(HttpEndpoints.SendFriendMessage, HttpMethod.Post, payload, qq);
+
+            var messageId = jObj.SelectToken("$.messageId");
+
+            if (messageId == null)
+            {
+                // Customize Error
+                throw new NullReferenceException($"无法获取到 messageId，Mirai API 返回的内容为：{jObj}");
+            }
+
+            return messageId.ToString();
         }
 
         public Task<string> SendGroupMessageAsync(string groupId, MessageChain chain, string? qq = null)
