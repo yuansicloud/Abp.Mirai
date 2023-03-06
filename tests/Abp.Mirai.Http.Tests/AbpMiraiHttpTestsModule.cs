@@ -1,5 +1,4 @@
 ﻿using Abp.Mirai.Common.Tests;
-using EasyAbp.Abp.WeChat.Official;
 using Volo.Abp.Modularity;
 
 namespace Abp.Mirai.Http.Tests

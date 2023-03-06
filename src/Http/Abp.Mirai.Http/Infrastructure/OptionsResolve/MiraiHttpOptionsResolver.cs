@@ -1,5 +1,4 @@
-﻿using EasyAbp.Abp.WeChat.Official;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Volo.Abp.DependencyInjection;
 

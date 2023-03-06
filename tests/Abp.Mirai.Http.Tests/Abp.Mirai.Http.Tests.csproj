@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Abp.Mirai.Http\Abp.Mirai.Http.csproj" />
+    <ProjectReference Include="..\..\src\Http\Abp.Mirai.Http\Abp.Mirai.Http.csproj" />
     <ProjectReference Include="..\Abp.Mirai.Common.Tests\Abp.Mirai.Common.Tests.csproj" />
   </ItemGroup>
 

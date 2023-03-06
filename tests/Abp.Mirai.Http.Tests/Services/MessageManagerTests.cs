@@ -16,20 +16,15 @@ namespace Abp.Mirai.Http.Tests.Services
         }
 
         [Fact]
-        public async Task Should_Get_OpenId_And_SessionKey()
+        public async Task Should_Get_Message_Id()
         {
             var msg = new MessageChain() {
-            new PlainMessage("123")
+            new PlainMessage("Hello World!")
             };
 
             var result = await _messageManager.SendFriendMessageAsync("1424494142", msg, "2467703805");
             
             result.ShouldNotBeNull();
-            //result.ErrorCode.ShouldBe(0);
-            //result.ErrorMessage.ShouldBeNull();
-            
-            //result.OpenId.ShouldNotBeEmpty();
-            //result.SessionKey.ShouldNotBeEmpty();
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.Serialization;
+using Volo.Abp;
 
 namespace Abp.Mirai.Common.Data.Exceptions;
 
@@ -7,7 +8,7 @@ namespace Abp.Mirai.Common.Data.Exceptions;
 ///     错误的QQ号
 /// </summary>
 [Serializable]
-public class InvalidQQException : Exception
+public class InvalidQQException : AbpException
 {
     //
     // For guidelines regarding the creation of new exception types, see

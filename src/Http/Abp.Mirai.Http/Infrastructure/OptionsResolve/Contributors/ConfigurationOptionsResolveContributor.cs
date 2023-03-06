@@ -1,5 +1,4 @@
-﻿using EasyAbp.Abp.WeChat.Official;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
 namespace Abp.Mirai.Http.Infrastructure.OptionsResolve.Contributors

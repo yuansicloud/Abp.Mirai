@@ -1,4 +1,5 @@
-﻿using Abp.Mirai.Common.Data.Messages;
+﻿using Abp.Mirai.Common.Data.Exceptions;
+using Abp.Mirai.Common.Data.Messages;
 using Abp.Mirai.Common.Services;
 using Abp.Mirai.Http.Infrastructure.Sessions;
 using Abp.Mirai.Http.Utils.Internal;
@@ -57,7 +58,7 @@ namespace Abp.Mirai.Http.Services
             if (messageId == null)
             {
                 // Customize Error
-                throw new NullReferenceException($"无法获取到 messageId，Mirai API 返回的内容为：{jObj}");
+                throw new InvalidResponseException($"无法获取到 messageId，Mirai API 返回的内容为：{jObj}");
             }
 
             return messageId.ToString();

@@ -1,6 +1,6 @@
 using Abp.Mirai.Http.Infrastructure.OptionsResolve;
 
-namespace EasyAbp.Abp.WeChat.Official
+namespace Abp.Mirai.Http
 {
     public class AbpMiraiHttpOptions : IMiraiHttpOptions
     {

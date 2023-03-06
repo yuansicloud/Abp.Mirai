@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Runtime.Serialization;
+using Volo.Abp;
 
 namespace Abp.Mirai.Common.Data.Exceptions;
 
 /// <summary>
-///     地址错误异常
+/// 错误的响应
 /// </summary>
 [Serializable]
-public class InvalidAddressException : Exception
+public class InvalidResponseException : AbpException
 {
     //
     // For guidelines regarding the creation of new exception types, see
@@ -16,19 +17,19 @@ public class InvalidAddressException : Exception
     //    http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dncscol/html/csharp07192001.asp
     //
 
-    public InvalidAddressException()
+    internal InvalidResponseException()
     {
     }
 
-    public InvalidAddressException(string message) : base(message)
+    internal InvalidResponseException(string message) : base(message)
     {
     }
 
-    public InvalidAddressException(string message, Exception inner) : base(message, inner)
+    internal InvalidResponseException(string message, Exception inner) : base(message, inner)
     {
     }
 
-    public InvalidAddressException(
+    internal InvalidResponseException(
         SerializationInfo info,
         StreamingContext context) : base(info, context)
     {

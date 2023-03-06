@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.Caching;
 using Volo.Abp.Modularity;
 
-namespace EasyAbp.Abp.WeChat.Official
+namespace Abp.Mirai.Http
 {
     [DependsOn(
         typeof(AbpMiraiCommonModule), 
