@@ -4,7 +4,7 @@ using Volo.Abp.DependencyInjection;
 
 namespace Abp.Mirai.Http.Services
 {
-    public abstract class CommonService : ITransientDependency
+    public abstract class MiraiHttpCommonService : ITransientDependency
     {
         public IServiceProvider ServiceProvider { get; set; }
 
