@@ -9,7 +9,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Manganese" Version="1.2.2" />
 		<PackageReference Include="Volo.Abp.Core" Version="$(AbpVersion)" />
 	</ItemGroup>
 
