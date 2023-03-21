@@ -88,7 +88,7 @@ namespace Abp.Mirai.Common.Utils
         /// </summary>
         private static readonly IEnumerable<MessageReceiverBase> MessageReceiverBases =
             GetDefaultInstances<MessageReceiverBase>(
-                "Abp.Mirai.Data.Messages.Receivers");
+                "Abp.Mirai.Common.Data.Messages.Receivers");
 
         /// <summary>
         ///     默认消息接收器类型字典(K: 接收器的类别, V: 实例的Type)
@@ -101,7 +101,7 @@ namespace Abp.Mirai.Common.Utils
         ///     默认消息实例
         /// </summary>
         private static readonly IEnumerable<MessageBase> MessageBases =
-            GetDefaultInstances<MessageBase>("Abp.Mirai.Data.Messages.Concretes");
+            GetDefaultInstances<MessageBase>("Abp.Mirai.Common.Data.Messages.Concretes");
 
         /// <summary>
         ///     默认消息实例类型字典(K: 消息的类别, V: 实例的Type)
@@ -114,7 +114,7 @@ namespace Abp.Mirai.Common.Utils
         ///     默认事件实例
         /// </summary>
         private static readonly IEnumerable<EventBase> EventBases =
-            GetDefaultInstances<EventBase>("Abp.Mirai.Data.Events.Concretes");
+            GetDefaultInstances<EventBase>("Abp.Mirai.Common.Data.Events.Concretes");
 
         /// <summary>
         ///     默认事件实例类型字典(K: 事件类别, V: 实例Type)
@@ -129,7 +129,7 @@ namespace Abp.Mirai.Common.Utils
         /// </summary>
         /// <param name="data">as: {"type": "Plain", "text": "Mirai牛逼" }</param>
         /// <returns></returns>
-        internal static MessageBase GetMessageBase(string data)
+        public static MessageBase GetMessageBase(string data)
         {
             try
             {
@@ -179,7 +179,7 @@ namespace Abp.Mirai.Common.Utils
         /// </summary>
         /// <param name="data"></param>
         /// <returns></returns>
-        internal static MessageReceiverBase GetMessageReceiverBase(string data)
+        public static MessageReceiverBase GetMessageReceiverBase(string data)
         {
             try
             {
@@ -203,7 +203,7 @@ namespace Abp.Mirai.Common.Utils
         /// </summary>
         /// <param name="data"></param>
         /// <returns></returns>
-        internal static EventBase GetEventBase(string data)
+        public static EventBase GetEventBase(string data)
         {
             try
             {
@@ -225,7 +225,7 @@ namespace Abp.Mirai.Common.Utils
         /// </summary>
         /// <param name="data"></param>
         /// <returns></returns>
-        internal static MessageChain DeserializeMessageChain(this string data)
+        public static MessageChain DeserializeMessageChain(this string data)
         {
             return data.ToJArray()
                 .Select(token => GetMessageBase(token.ToString()))

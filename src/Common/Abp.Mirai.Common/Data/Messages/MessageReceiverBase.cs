@@ -16,6 +16,12 @@ public record MessageReceiverBase
     public virtual MessageReceivers Type { get; set; }
 
     /// <summary>
+    /// 接收消息的QQ号
+    /// </summary>
+    [JsonIgnore]
+    public virtual string QQ { get; set; }
+
+    /// <summary>
     /// 接受到的消息链
     /// </summary>
     [JsonProperty("messageChain")] public MessageChain MessageChain { get; set; }

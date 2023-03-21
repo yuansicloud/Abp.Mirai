@@ -23,6 +23,12 @@ public record EventBase
     public virtual Events Type { get; set; }
 
     /// <summary>
+    /// 接收事件的QQ号
+    /// </summary>
+    [JsonIgnore]
+    public virtual string QQ { get; set; }
+
+    /// <summary>
     /// ToString实际上是ToJsonString也就是说会被序列化成JSON文本
     /// </summary>
     /// <returns></returns>

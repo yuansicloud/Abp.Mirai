@@ -10,7 +10,7 @@ namespace Abp.Mirai.Webhook
     {
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
-            context.Services.ConfigureOptions<AbpMiraiWebhookOptions>();
+            //context.Services.ConfigureOptions<AbpMiraiWebhookOptions>();
         }
 
     }
