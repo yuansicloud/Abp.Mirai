@@ -24,7 +24,7 @@ public class XXXDomainModule : AbpModule
 
 ### 2.2 模块的配置
 
-微信模块的配置参数都存放在 `AbpMiraiWebhookOptions` 内部，开发人员只需要在启动模块的 `ConfigureService()` 方法中进行配置即可，下面是最小启动配置。
+webhook模块的配置参数都存放在 `AbpMiraiWebhookOptions` 内部，开发人员只需要在启动模块的 `ConfigureService()` 方法中进行配置即可，下面是最小启动配置。
 
 ```csharp
 [DependsOn (typeof (AbpMiraiWebhookModule))]
@@ -47,9 +47,9 @@ public class XXXDomainModule : AbpModule
 
 ## 三、提供的回调接口
 
-### 3.1 支付回调接口
+### 3.1 通知回调接口
 
-支付通知接口的默认路由是 `/Mirai/Notify`，当Mirai Bot收到消息或者事件之后，mirai-api-http会将消息和事件通过异步回调的方式请求 **Mirai通知接口**
+通知接口的默认路由是 `/Mirai/Notify`，当Mirai Bot收到消息或者事件之后，mirai-api-http会将消息和事件通过异步回调的方式请求 **Mirai通知接口**
 
 > 开发人员也可以自己编写回调接口，只需要在配置的时候，参数传递自己的回调接口 URL 即可。
 

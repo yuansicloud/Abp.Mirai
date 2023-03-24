@@ -55,7 +55,7 @@ public class XXXDomainModule : AbpModule
 
 ### 2.2 模块的配置
 
-微信模块的配置参数都存放在 `AbpMiraiHttpOptions` 内部，开发人员只需要在启动模块的 `ConfigureService()` 方法中进行配置即可，下面是最小启动配置。
+http模块的配置参数都存放在 `AbpMiraiHttpOptions` 内部，开发人员只需要在启动模块的 `ConfigureService()` 方法中进行配置即可，下面是最小启动配置。
 
 ```csharp
 [DependsOn(typeof(AbpMiraiHttpModule))]
