@@ -18,7 +18,6 @@ namespace Abp.Mirai.Common.Handlers
 
         public async Task HandleAsync(MessageReceiverBase context)
         {
-            _logger.LogInformation(context.ToString());
             Type type = context.GetType();
             await _localEventBus.PublishAsync(type, context);
         }

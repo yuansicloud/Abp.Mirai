@@ -27,7 +27,14 @@ namespace Abp.Mirai.Demo.Subscribers
         public async Task HandleEventAsync(FriendMessageReceiver eventData)
         {
             //TODO: your code that does something on the event
-            _logger.LogInformation(eventData.FriendName + "发送了一条消息");
+            //_logger.LogInformation(eventData.FriendName + "发送了一条消息");
+
+            if (eventData.QQ == eventData.FriendId)
+            {
+                _logger.LogError("不能给自己发送消息");
+                return;
+            }
+
             await _messageManager.SendFriendMessageAsync(eventData.FriendId, new MessageChain {
                 new PlainMessage("收到宝宝的消息拉！")
             }, eventData.QQ);

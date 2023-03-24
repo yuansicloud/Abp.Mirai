@@ -2981,3 +2981,1221 @@ System.Threading.Tasks.TaskCanceledException: A task was canceled.
 2023-03-21 12:00:10.693 +08:00 [INF] Sending HTTP request POST http://localhost:8080/verify
 2023-03-21 12:00:12.837 +08:00 [INF] Received HTTP response headers after 2141.5079ms - 500
 2023-03-21 12:00:12.837 +08:00 [INF] End processing HTTP request after 2147.8634ms - 500
+2023-03-24 11:19:28.902 +08:00 [INF] Starting web host.
+2023-03-24 11:19:32.681 +08:00 [INF] Loaded ABP modules:
+2023-03-24 11:19:32.682 +08:00 [INF] - Abp.Mirai.Demo.DemoHttpApiHostModule
+2023-03-24 11:19:32.682 +08:00 [INF]   - Abp.Mirai.Http.AbpMiraiHttpModule
+2023-03-24 11:19:32.682 +08:00 [INF]     - Abp.Mirai.Common.AbpMiraiCommonModule
+2023-03-24 11:19:32.682 +08:00 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2023-03-24 11:19:32.682 +08:00 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2023-03-24 11:19:32.682 +08:00 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2023-03-24 11:19:32.682 +08:00 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-03-24 11:19:32.682 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-03-24 11:19:32.682 +08:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2023-03-24 11:19:32.682 +08:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-03-24 11:19:32.682 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-03-24 11:19:32.682 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-03-24 11:19:32.682 +08:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-03-24 11:19:32.682 +08:00 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2023-03-24 11:19:32.682 +08:00 [INF]       - Volo.Abp.Json.AbpJsonModule
+2023-03-24 11:19:32.682 +08:00 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-03-24 11:19:32.682 +08:00 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-03-24 11:19:32.682 +08:00 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2023-03-24 11:19:32.682 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-03-24 11:19:32.682 +08:00 [INF]   - Abp.Mirai.Webhook.AbpMiraiWebhookModule
+2023-03-24 11:19:32.682 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-03-24 11:19:32.682 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-03-24 11:19:32.682 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-03-24 11:19:32.682 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-03-24 11:19:32.682 +08:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-03-24 11:19:32.682 +08:00 [INF]             - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.Auditing.AbpAuditingModule
+2023-03-24 11:19:32.682 +08:00 [INF]                 - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.Http.AbpHttpModule
+2023-03-24 11:19:32.682 +08:00 [INF]                 - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-03-24 11:19:32.682 +08:00 [INF]                 - Volo.Abp.Minify.AbpMinifyModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-03-24 11:19:32.682 +08:00 [INF]                 - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.Validation.AbpValidationModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-03-24 11:19:32.682 +08:00 [INF]             - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-03-24 11:19:32.682 +08:00 [INF]             - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-03-24 11:19:32.682 +08:00 [INF]             - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.UI.AbpUiModule
+2023-03-24 11:19:32.682 +08:00 [INF]             - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-03-24 11:19:32.682 +08:00 [INF]             - Volo.Abp.Application.AbpDddApplicationModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.Domain.AbpDddDomainModule
+2023-03-24 11:19:32.682 +08:00 [INF]                 - Volo.Abp.EventBus.AbpEventBusModule
+2023-03-24 11:19:32.682 +08:00 [INF]                   - Volo.Abp.Guids.AbpGuidsModule
+2023-03-24 11:19:32.682 +08:00 [INF]                   - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-03-24 11:19:32.682 +08:00 [INF]                   - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-03-24 11:19:32.682 +08:00 [INF]                 - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-03-24 11:19:32.682 +08:00 [INF]                 - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-03-24 11:19:32.682 +08:00 [INF]               - Volo.Abp.Features.AbpFeaturesModule
+2023-03-24 11:19:32.682 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-03-24 11:19:32.682 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-03-24 11:19:32.682 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-03-24 11:19:32.682 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-03-24 11:19:32.682 +08:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-03-24 11:19:32.682 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-03-24 11:19:32.682 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-03-24 11:19:32.682 +08:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-03-24 11:19:32.682 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-03-24 11:19:32.682 +08:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-03-24 11:19:34.031 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-24 11:19:34.198 +08:00 [INF] Initialized all ABP modules.
+2023-03-24 11:19:34.357 +08:00 [INF] Now listening on: http://localhost:5000
+2023-03-24 11:19:34.357 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-24 11:19:34.357 +08:00 [INF] Hosting environment: Development
+2023-03-24 11:19:34.357 +08:00 [INF] Content root path: H:\OpenSourceProject\Abp.Mirai\demo\Abp.Mirai.Demo.HttpApi.Host
+2023-03-24 11:19:35.268 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2023-03-24 11:19:35.294 +08:00 [WRN] Failed to determine the https port for redirect.
+2023-03-24 11:19:35.528 +08:00 [INF] Executing endpoint 'Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host)'
+2023-03-24 11:19:35.562 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Abp.Mirai.Demo.Controllers.HomeController (Abp.Mirai.Demo.HttpApi.Host).
+2023-03-24 11:19:35.698 +08:00 [INF] Executing action method Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host) - Validation state: "Valid"
+2023-03-24 11:19:35.701 +08:00 [INF] Executed action method Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3612ms.
+2023-03-24 11:19:35.710 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2023-03-24 11:19:35.716 +08:00 [INF] Executed action Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host) in 149.8789ms
+2023-03-24 11:19:35.716 +08:00 [INF] Executed endpoint 'Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host)'
+2023-03-24 11:19:35.736 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 302 0 - 467.4198ms
+2023-03-24 11:19:35.741 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2023-03-24 11:19:35.747 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 301 0 - 6.0112ms
+2023-03-24 11:19:35.749 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-03-24 11:19:36.025 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 275.9238ms
+2023-03-24 11:19:36.038 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2023-03-24 11:19:36.043 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.js - -
+2023-03-24 11:19:36.043 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - -
+2023-03-24 11:19:36.043 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.swagger.js - -
+2023-03-24 11:19:36.043 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - -
+2023-03-24 11:19:36.044 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-03-24 11:19:36.060 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12024 application/javascript;+charset=utf-8 15.7635ms
+2023-03-24 11:19:36.090 +08:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2023-03-24 11:19:36.090 +08:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2023-03-24 11:19:36.090 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.swagger.js - - - 200 1363 application/javascript 47.6150ms
+2023-03-24 11:19:36.090 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.js - - - 200 3122 application/javascript 47.6137ms
+2023-03-24 11:19:36.109 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-03-24 11:19:36.110 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-24 11:19:36.110 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 200 143943 text/css 72.2596ms
+2023-03-24 11:19:36.110 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 66.5085ms
+2023-03-24 11:19:36.111 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-03-24 11:19:36.115 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-24 11:19:36.116 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - - - 200 1095087 text/javascript 72.9014ms
+2023-03-24 11:19:36.192 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.5809ms
+2023-03-24 11:19:36.304 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-03-24 11:19:36.575 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 270.7771ms
+2023-03-24 11:19:50.140 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 186
+2023-03-24 11:19:50.143 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 11:19:50.148 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 11:19:50.175 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 11:19:50.338 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 1424494142, NickName = 困困, Remark = 困困 }, FriendName = 困困, FriendRemark = 困困, FriendId = 1424494142 }
+2023-03-24 11:19:50.340 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 164.2503ms.
+2023-03-24 11:19:50.353 +08:00 [INF] 困困发送了一条消息
+2023-03-24 11:19:54.626 +08:00 [WRN] It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 861
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2023-03-24 11:19:58.714 +08:00 [WRN] It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 8s ago, v: 2.2.4.27433
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 8s ago, v: 2.2.4.27433
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 861
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2023-03-24 11:20:25.271 +08:00 [INF] Starting web host.
+2023-03-24 11:20:27.329 +08:00 [INF] Loaded ABP modules:
+2023-03-24 11:20:27.330 +08:00 [INF] - Abp.Mirai.Demo.DemoHttpApiHostModule
+2023-03-24 11:20:27.330 +08:00 [INF]   - Abp.Mirai.Http.AbpMiraiHttpModule
+2023-03-24 11:20:27.330 +08:00 [INF]     - Abp.Mirai.Common.AbpMiraiCommonModule
+2023-03-24 11:20:27.330 +08:00 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2023-03-24 11:20:27.330 +08:00 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2023-03-24 11:20:27.330 +08:00 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2023-03-24 11:20:27.330 +08:00 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-03-24 11:20:27.330 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-03-24 11:20:27.330 +08:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2023-03-24 11:20:27.330 +08:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-03-24 11:20:27.330 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-03-24 11:20:27.330 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-03-24 11:20:27.330 +08:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-03-24 11:20:27.330 +08:00 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2023-03-24 11:20:27.330 +08:00 [INF]       - Volo.Abp.Json.AbpJsonModule
+2023-03-24 11:20:27.330 +08:00 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-03-24 11:20:27.330 +08:00 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-03-24 11:20:27.330 +08:00 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2023-03-24 11:20:27.330 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-03-24 11:20:27.330 +08:00 [INF]   - Abp.Mirai.Webhook.AbpMiraiWebhookModule
+2023-03-24 11:20:27.330 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-03-24 11:20:27.330 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-03-24 11:20:27.330 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-03-24 11:20:27.330 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-03-24 11:20:27.330 +08:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-03-24 11:20:27.330 +08:00 [INF]             - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.Auditing.AbpAuditingModule
+2023-03-24 11:20:27.330 +08:00 [INF]                 - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.Http.AbpHttpModule
+2023-03-24 11:20:27.330 +08:00 [INF]                 - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-03-24 11:20:27.330 +08:00 [INF]                 - Volo.Abp.Minify.AbpMinifyModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-03-24 11:20:27.330 +08:00 [INF]                 - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.Validation.AbpValidationModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-03-24 11:20:27.330 +08:00 [INF]             - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-03-24 11:20:27.330 +08:00 [INF]             - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-03-24 11:20:27.330 +08:00 [INF]             - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.UI.AbpUiModule
+2023-03-24 11:20:27.330 +08:00 [INF]             - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-03-24 11:20:27.330 +08:00 [INF]             - Volo.Abp.Application.AbpDddApplicationModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.Domain.AbpDddDomainModule
+2023-03-24 11:20:27.330 +08:00 [INF]                 - Volo.Abp.EventBus.AbpEventBusModule
+2023-03-24 11:20:27.330 +08:00 [INF]                   - Volo.Abp.Guids.AbpGuidsModule
+2023-03-24 11:20:27.330 +08:00 [INF]                   - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-03-24 11:20:27.330 +08:00 [INF]                   - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-03-24 11:20:27.330 +08:00 [INF]                 - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-03-24 11:20:27.330 +08:00 [INF]                 - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-03-24 11:20:27.330 +08:00 [INF]               - Volo.Abp.Features.AbpFeaturesModule
+2023-03-24 11:20:27.330 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-03-24 11:20:27.330 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-03-24 11:20:27.330 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-03-24 11:20:27.330 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-03-24 11:20:27.330 +08:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-03-24 11:20:27.330 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-03-24 11:20:27.330 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-03-24 11:20:27.330 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-03-24 11:20:27.330 +08:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-03-24 11:20:27.634 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-24 11:20:27.694 +08:00 [INF] Initialized all ABP modules.
+2023-03-24 11:20:27.779 +08:00 [INF] Now listening on: http://localhost:5000
+2023-03-24 11:20:27.779 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-24 11:20:27.779 +08:00 [INF] Hosting environment: Development
+2023-03-24 11:20:27.779 +08:00 [INF] Content root path: H:\OpenSourceProject\Abp.Mirai\demo\Abp.Mirai.Demo.HttpApi.Host
+2023-03-24 11:20:28.381 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2023-03-24 11:20:28.403 +08:00 [WRN] Failed to determine the https port for redirect.
+2023-03-24 11:20:28.616 +08:00 [INF] Executing endpoint 'Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host)'
+2023-03-24 11:20:28.651 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Abp.Mirai.Demo.Controllers.HomeController (Abp.Mirai.Demo.HttpApi.Host).
+2023-03-24 11:20:28.755 +08:00 [INF] Executing action method Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host) - Validation state: "Valid"
+2023-03-24 11:20:28.760 +08:00 [INF] Executed action method Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.376ms.
+2023-03-24 11:20:28.771 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2023-03-24 11:20:28.775 +08:00 [INF] Executed action Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host) in 120.7179ms
+2023-03-24 11:20:28.775 +08:00 [INF] Executed endpoint 'Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host)'
+2023-03-24 11:20:28.790 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 302 0 - 409.1501ms
+2023-03-24 11:20:28.795 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-03-24 11:20:28.953 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 158.3168ms
+2023-03-24 11:20:28.970 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-03-24 11:20:28.979 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12024 application/javascript;+charset=utf-8 8.6940ms
+2023-03-24 11:20:28.986 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-03-24 11:20:29.022 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.1100ms
+2023-03-24 11:20:29.189 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-03-24 11:20:29.530 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 340.7800ms
+2023-03-24 11:20:35.652 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 186
+2023-03-24 11:20:35.655 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 11:20:35.661 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 11:20:35.690 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 11:20:35.820 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 1424494142, NickName = 困困, Remark = 困困 }, FriendName = 困困, FriendRemark = 困困, FriendId = 1424494142 }
+2023-03-24 11:20:35.822 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 131.9266ms.
+2023-03-24 11:20:35.835 +08:00 [INF] 困困发送了一条消息
+2023-03-24 11:20:45.108 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/verify
+2023-03-24 11:20:45.109 +08:00 [INF] Sending HTTP request POST http://localhost:8080/verify
+2023-03-24 11:20:47.316 +08:00 [INF] Received HTTP response headers after 2205.2746ms - 200
+2023-03-24 11:20:47.317 +08:00 [INF] End processing HTTP request after 2210.1608ms - 200
+2023-03-24 11:21:06.739 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/bind
+2023-03-24 11:21:06.739 +08:00 [INF] Sending HTTP request POST http://localhost:8080/bind
+2023-03-24 11:21:06.780 +08:00 [INF] Received HTTP response headers after 40.545ms - 200
+2023-03-24 11:21:06.780 +08:00 [INF] End processing HTTP request after 40.7063ms - 200
+2023-03-24 11:21:13.164 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 11:21:13.164 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 11:21:13.677 +08:00 [INF] Received HTTP response headers after 512.5275ms - 200
+2023-03-24 11:21:13.677 +08:00 [INF] End processing HTTP request after 513.0546ms - 200
+2023-03-24 11:21:13.685 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 11:21:13.686 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 38024.7721ms
+2023-03-24 11:21:13.687 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 11:21:13.691 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : ::1
+- ExecutionDuration      : 38033
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (38017 ms.)
+    {}
+
+2023-03-24 11:21:13.691 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 186 - 0 - - 38039.0970ms
+2023-03-24 12:09:22.311 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 79
+2023-03-24 12:09:22.320 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 12:09:22.321 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 12:09:22.343 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 12:09:22.350 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 6.8014ms.
+2023-03-24 12:09:22.350 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 12:09:22.350 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 29.0699ms
+2023-03-24 12:09:22.350 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 12:09:22.350 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 29
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (29 ms.)
+    {}
+
+2023-03-24 12:09:22.350 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 79 - 200 0 - 39.1767ms
+2023-03-24 12:10:03.880 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 80
+2023-03-24 12:10:03.881 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 12:10:03.881 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 12:10:03.907 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 12:10:03.910 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 2.8867ms.
+2023-03-24 12:10:03.910 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 12:10:03.910 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 28.2188ms
+2023-03-24 12:10:03.910 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 12:10:03.910 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 28
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (28 ms.)
+    {}
+
+2023-03-24 12:10:03.910 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 80 - 200 0 - 29.7786ms
+2023-03-24 12:10:28.343 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 186
+2023-03-24 12:10:28.344 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 12:10:28.348 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 12:10:28.369 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 12:10:28.370 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 1424494142, NickName = 困困, Remark = 困困 }, FriendName = 困困, FriendRemark = 困困, FriendId = 1424494142 }
+2023-03-24 12:10:28.370 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 1.4235ms.
+2023-03-24 12:10:28.371 +08:00 [INF] 困困发送了一条消息
+2023-03-24 12:10:28.372 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/verify
+2023-03-24 12:10:28.372 +08:00 [INF] Sending HTTP request POST http://localhost:8080/verify
+2023-03-24 12:10:30.448 +08:00 [INF] Received HTTP response headers after 2076.1608ms - 200
+2023-03-24 12:10:30.448 +08:00 [INF] End processing HTTP request after 2076.26ms - 200
+2023-03-24 12:10:30.448 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/bind
+2023-03-24 12:10:30.448 +08:00 [INF] Sending HTTP request POST http://localhost:8080/bind
+2023-03-24 12:10:30.479 +08:00 [INF] Received HTTP response headers after 30.6269ms - 200
+2023-03-24 12:10:30.479 +08:00 [INF] End processing HTTP request after 30.7083ms - 200
+2023-03-24 12:10:30.480 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 12:10:30.480 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 12:10:31.022 +08:00 [INF] Received HTTP response headers after 541.8942ms - 200
+2023-03-24 12:10:31.022 +08:00 [INF] End processing HTTP request after 542.006ms - 200
+2023-03-24 12:10:31.023 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 12:10:31.023 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 2674.8632ms
+2023-03-24 12:10:31.023 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 12:10:31.023 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 2679
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (2674 ms.)
+    {}
+
+2023-03-24 12:10:31.023 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 186 - 200 0 - 2680.5760ms
+2023-03-24 12:10:43.039 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 195
+2023-03-24 12:10:43.040 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 12:10:43.040 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 12:10:43.059 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 12:10:43.060 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 1424494142, NickName = 困困, Remark = 困困 }, FriendName = 困困, FriendRemark = 困困, FriendId = 1424494142 }
+2023-03-24 12:10:43.060 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.8711ms.
+2023-03-24 12:10:43.060 +08:00 [INF] 困困发送了一条消息
+2023-03-24 12:10:43.062 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 12:10:43.062 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 12:10:43.531 +08:00 [INF] Received HTTP response headers after 468.7813ms - 200
+2023-03-24 12:10:43.531 +08:00 [INF] End processing HTTP request after 468.9647ms - 200
+2023-03-24 12:10:43.531 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 12:10:43.531 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 491.2557ms
+2023-03-24 12:10:43.531 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 12:10:43.531 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 491
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (491 ms.)
+    {}
+
+2023-03-24 12:10:43.531 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 195 - 200 0 - 492.4741ms
+2023-03-24 13:44:16.278 +08:00 [INF] Starting web host.
+2023-03-24 13:44:18.187 +08:00 [INF] Loaded ABP modules:
+2023-03-24 13:44:18.188 +08:00 [INF] - Abp.Mirai.Demo.DemoHttpApiHostModule
+2023-03-24 13:44:18.188 +08:00 [INF]   - Abp.Mirai.Http.AbpMiraiHttpModule
+2023-03-24 13:44:18.188 +08:00 [INF]     - Abp.Mirai.Common.AbpMiraiCommonModule
+2023-03-24 13:44:18.188 +08:00 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2023-03-24 13:44:18.188 +08:00 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2023-03-24 13:44:18.188 +08:00 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2023-03-24 13:44:18.188 +08:00 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-03-24 13:44:18.188 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-03-24 13:44:18.188 +08:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2023-03-24 13:44:18.188 +08:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-03-24 13:44:18.188 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-03-24 13:44:18.188 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-03-24 13:44:18.188 +08:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-03-24 13:44:18.188 +08:00 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2023-03-24 13:44:18.188 +08:00 [INF]       - Volo.Abp.Json.AbpJsonModule
+2023-03-24 13:44:18.188 +08:00 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-03-24 13:44:18.188 +08:00 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-03-24 13:44:18.188 +08:00 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2023-03-24 13:44:18.188 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-03-24 13:44:18.188 +08:00 [INF]   - Abp.Mirai.Webhook.AbpMiraiWebhookModule
+2023-03-24 13:44:18.188 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-03-24 13:44:18.188 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-03-24 13:44:18.188 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-03-24 13:44:18.188 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-03-24 13:44:18.188 +08:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-03-24 13:44:18.188 +08:00 [INF]             - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.Auditing.AbpAuditingModule
+2023-03-24 13:44:18.188 +08:00 [INF]                 - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.Http.AbpHttpModule
+2023-03-24 13:44:18.188 +08:00 [INF]                 - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-03-24 13:44:18.188 +08:00 [INF]                 - Volo.Abp.Minify.AbpMinifyModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-03-24 13:44:18.188 +08:00 [INF]                 - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.Validation.AbpValidationModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-03-24 13:44:18.188 +08:00 [INF]             - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-03-24 13:44:18.188 +08:00 [INF]             - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-03-24 13:44:18.188 +08:00 [INF]             - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.UI.AbpUiModule
+2023-03-24 13:44:18.188 +08:00 [INF]             - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-03-24 13:44:18.188 +08:00 [INF]             - Volo.Abp.Application.AbpDddApplicationModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.Domain.AbpDddDomainModule
+2023-03-24 13:44:18.188 +08:00 [INF]                 - Volo.Abp.EventBus.AbpEventBusModule
+2023-03-24 13:44:18.188 +08:00 [INF]                   - Volo.Abp.Guids.AbpGuidsModule
+2023-03-24 13:44:18.188 +08:00 [INF]                   - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-03-24 13:44:18.188 +08:00 [INF]                   - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-03-24 13:44:18.188 +08:00 [INF]                 - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-03-24 13:44:18.188 +08:00 [INF]                 - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-03-24 13:44:18.188 +08:00 [INF]               - Volo.Abp.Features.AbpFeaturesModule
+2023-03-24 13:44:18.188 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-03-24 13:44:18.188 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-03-24 13:44:18.188 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-03-24 13:44:18.188 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-03-24 13:44:18.188 +08:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-03-24 13:44:18.188 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-03-24 13:44:18.188 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-03-24 13:44:18.188 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-03-24 13:44:18.188 +08:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-03-24 13:44:18.510 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-24 13:44:18.575 +08:00 [INF] Initialized all ABP modules.
+2023-03-24 13:44:18.665 +08:00 [INF] Now listening on: http://localhost:5000
+2023-03-24 13:44:18.665 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-24 13:44:18.665 +08:00 [INF] Hosting environment: Development
+2023-03-24 13:44:18.665 +08:00 [INF] Content root path: H:\OpenSourceProject\Abp.Mirai\demo\Abp.Mirai.Demo.HttpApi.Host
+2023-03-24 13:44:19.566 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2023-03-24 13:44:19.594 +08:00 [WRN] Failed to determine the https port for redirect.
+2023-03-24 13:44:19.786 +08:00 [INF] Executing endpoint 'Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host)'
+2023-03-24 13:44:19.815 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Abp.Mirai.Demo.Controllers.HomeController (Abp.Mirai.Demo.HttpApi.Host).
+2023-03-24 13:44:19.917 +08:00 [INF] Executing action method Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host) - Validation state: "Valid"
+2023-03-24 13:44:19.922 +08:00 [INF] Executed action method Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.8664ms.
+2023-03-24 13:44:19.930 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2023-03-24 13:44:19.933 +08:00 [INF] Executed action Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host) in 116.2028ms
+2023-03-24 13:44:19.933 +08:00 [INF] Executed endpoint 'Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host)'
+2023-03-24 13:44:19.946 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 302 0 - 383.7330ms
+2023-03-24 13:44:19.950 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-03-24 13:44:20.115 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 164.8630ms
+2023-03-24 13:44:20.134 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-03-24 13:44:20.139 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12024 application/javascript;+charset=utf-8 4.4754ms
+2023-03-24 13:44:20.144 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-03-24 13:44:20.178 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.4958ms
+2023-03-24 13:44:20.264 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-03-24 13:44:20.521 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 256.9023ms
+2023-03-24 13:44:28.560 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 181
+2023-03-24 13:44:28.561 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:44:28.566 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:44:28.592 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:44:28.713 +08:00 [INF] FriendSyncMessageReceiver { Type = FriendSync, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, TargetFriend = Friend { Id = 975447334, NickName = 春, Remark =  } }
+2023-03-24 13:44:28.714 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 121.3521ms.
+2023-03-24 13:44:28.720 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:44:28.720 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 154.085ms
+2023-03-24 13:44:28.720 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:44:28.724 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 160
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (148 ms.)
+    {}
+
+2023-03-24 13:44:28.724 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 181 - 200 0 - 164.2006ms
+2023-03-24 13:44:59.612 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 194
+2023-03-24 13:44:59.642 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 179
+2023-03-24 13:44:59.644 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:44:59.644 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:44:59.645 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:44:59.645 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:44:59.666 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:44:59.685 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:44:59.689 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:44:59.689 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 975447334, NickName = 春, Remark =  }, FriendName = 春, FriendRemark = , FriendId = 975447334 }
+2023-03-24 13:44:59.689 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 4.0739ms.
+2023-03-24 13:44:59.689 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 4.4794ms.
+2023-03-24 13:44:59.697 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:44:59.697 +08:00 [INF] 春发送了一条消息
+2023-03-24 13:44:59.746 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/verify
+2023-03-24 13:44:59.747 +08:00 [INF] Sending HTTP request POST http://localhost:8080/verify
+2023-03-24 13:45:01.897 +08:00 [INF] Received HTTP response headers after 2147.9609ms - 200
+2023-03-24 13:45:01.897 +08:00 [INF] End processing HTTP request after 2153.2249ms - 200
+2023-03-24 13:45:01.903 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/bind
+2023-03-24 13:45:01.903 +08:00 [INF] Sending HTTP request POST http://localhost:8080/bind
+2023-03-24 13:45:01.936 +08:00 [INF] Received HTTP response headers after 32.7644ms - 200
+2023-03-24 13:45:01.936 +08:00 [INF] End processing HTTP request after 32.9548ms - 200
+2023-03-24 13:45:01.952 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:01.952 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:01.980 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:01.981 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:02.473 +08:00 [INF] Received HTTP response headers after 520.3834ms - 200
+2023-03-24 13:45:02.473 +08:00 [INF] End processing HTTP request after 520.5249ms - 200
+2023-03-24 13:45:02.479 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:02.479 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 2834.5881ms
+2023-03-24 13:45:02.480 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:02.480 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 2836
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (2833 ms.)
+    {}
+
+2023-03-24 13:45:02.481 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 179 - 200 0 - 2838.2973ms
+2023-03-24 13:45:03.022 +08:00 [INF] Received HTTP response headers after 1041.2375ms - 200
+2023-03-24 13:45:03.022 +08:00 [INF] End processing HTTP request after 1041.4273ms - 200
+2023-03-24 13:45:03.022 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:03.022 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 3377.4939ms
+2023-03-24 13:45:03.022 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:03.022 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 3378
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (3377 ms.)
+    {}
+
+2023-03-24 13:45:03.022 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 194 - 200 0 - 3412.8045ms
+2023-03-24 13:45:03.206 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:03.207 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:03.207 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:03.227 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:03.228 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:03.228 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.695ms.
+2023-03-24 13:45:03.228 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:03.229 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:03.229 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:03.798 +08:00 [INF] Received HTTP response headers after 569.319ms - 200
+2023-03-24 13:45:03.798 +08:00 [INF] End processing HTTP request after 569.4695ms - 200
+2023-03-24 13:45:03.798 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:03.798 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 591.6991ms
+2023-03-24 13:45:03.798 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:03.799 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 592
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (591 ms.)
+    {}
+
+2023-03-24 13:45:03.799 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 593.2879ms
+2023-03-24 13:45:03.987 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:03.987 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:03.988 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:04.008 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:04.009 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:04.009 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.632ms.
+2023-03-24 13:45:04.009 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:04.009 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:04.009 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:04.571 +08:00 [INF] Received HTTP response headers after 561.3473ms - 200
+2023-03-24 13:45:04.571 +08:00 [INF] End processing HTTP request after 561.4791ms - 200
+2023-03-24 13:45:04.571 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:04.571 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 583.6511ms
+2023-03-24 13:45:04.571 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:04.571 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 584
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (583 ms.)
+    {}
+
+2023-03-24 13:45:04.572 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 585.0598ms
+2023-03-24 13:45:04.711 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:04.711 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:04.711 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:04.732 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:04.732 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:04.732 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.6374ms.
+2023-03-24 13:45:04.733 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:04.733 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:04.733 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:05.289 +08:00 [INF] Received HTTP response headers after 555.9961ms - 200
+2023-03-24 13:45:05.289 +08:00 [INF] End processing HTTP request after 556.0782ms - 200
+2023-03-24 13:45:05.289 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:05.289 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 577.6156ms
+2023-03-24 13:45:05.289 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:05.289 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 578
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (577 ms.)
+    {}
+
+2023-03-24 13:45:05.289 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 578.6193ms
+2023-03-24 13:45:05.399 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:05.400 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:05.400 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:05.422 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:05.423 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:05.423 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5586ms.
+2023-03-24 13:45:05.423 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:05.423 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:05.423 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:05.990 +08:00 [INF] Received HTTP response headers after 566.7101ms - 200
+2023-03-24 13:45:05.990 +08:00 [INF] End processing HTTP request after 566.8438ms - 200
+2023-03-24 13:45:05.991 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:05.991 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 590.6952ms
+2023-03-24 13:45:05.991 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:05.991 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 591
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (590 ms.)
+    {}
+
+2023-03-24 13:45:05.991 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 591.8641ms
+2023-03-24 13:45:06.165 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:06.165 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:06.166 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:06.184 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:06.185 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:06.185 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.8376ms.
+2023-03-24 13:45:06.185 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:06.186 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:06.186 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:06.750 +08:00 [INF] Received HTTP response headers after 564.6201ms - 200
+2023-03-24 13:45:06.750 +08:00 [INF] End processing HTTP request after 564.726ms - 200
+2023-03-24 13:45:06.751 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:06.751 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 585.393ms
+2023-03-24 13:45:06.751 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:06.751 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 586
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (585 ms.)
+    {}
+
+2023-03-24 13:45:06.751 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 586.5429ms
+2023-03-24 13:45:06.932 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:06.933 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:06.933 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:06.951 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:06.952 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:06.952 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.9156ms.
+2023-03-24 13:45:06.952 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:06.953 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:06.953 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:07.526 +08:00 [INF] Received HTTP response headers after 573.1187ms - 200
+2023-03-24 13:45:07.526 +08:00 [INF] End processing HTTP request after 573.2348ms - 200
+2023-03-24 13:45:07.527 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:07.527 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 593.641ms
+2023-03-24 13:45:07.527 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:07.527 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 594
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (593 ms.)
+    {}
+
+2023-03-24 13:45:07.527 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 595.1775ms
+2023-03-24 13:45:07.712 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:07.713 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:07.714 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:07.732 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:07.733 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:07.733 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.9486ms.
+2023-03-24 13:45:07.734 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:07.734 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:07.734 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:08.308 +08:00 [INF] Received HTTP response headers after 574.2768ms - 200
+2023-03-24 13:45:08.308 +08:00 [INF] End processing HTTP request after 574.3907ms - 200
+2023-03-24 13:45:08.309 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:08.309 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 595.3622ms
+2023-03-24 13:45:08.309 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:08.309 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 596
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (595 ms.)
+    {}
+
+2023-03-24 13:45:08.309 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 596.8408ms
+2023-03-24 13:45:08.490 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:08.490 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:08.490 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:08.510 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:08.511 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:08.512 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 1.019ms.
+2023-03-24 13:45:08.512 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:08.512 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:08.512 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:09.094 +08:00 [INF] Received HTTP response headers after 581.4721ms - 200
+2023-03-24 13:45:09.094 +08:00 [INF] End processing HTTP request after 581.8092ms - 200
+2023-03-24 13:45:09.094 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:09.094 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 604.0534ms
+2023-03-24 13:45:09.095 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:09.095 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 604
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (604 ms.)
+    {}
+
+2023-03-24 13:45:09.095 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 605.4177ms
+2023-03-24 13:45:09.285 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:09.286 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:09.286 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:09.304 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:09.304 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:09.304 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.7292ms.
+2023-03-24 13:45:09.305 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:09.305 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:09.305 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:09.744 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 445
+2023-03-24 13:45:09.745 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:09.745 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:09.790 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:09.795 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 975447334, NickName = 春, Remark =  }, FriendName = 春, FriendRemark = , FriendId = 975447334 }
+2023-03-24 13:45:09.795 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 5.2448ms.
+2023-03-24 13:45:09.795 +08:00 [INF] 春发送了一条消息
+2023-03-24 13:45:09.796 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:09.796 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:09.920 +08:00 [INF] Received HTTP response headers after 615.4673ms - 200
+2023-03-24 13:45:09.920 +08:00 [INF] End processing HTTP request after 615.583ms - 200
+2023-03-24 13:45:09.921 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:09.921 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 634.9776ms
+2023-03-24 13:45:09.921 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:09.921 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 635
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (635 ms.)
+    {}
+
+2023-03-24 13:45:09.921 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 636.4430ms
+2023-03-24 13:45:10.108 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:10.109 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:10.109 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:10.128 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:10.128 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:10.128 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5518ms.
+2023-03-24 13:45:10.128 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:10.128 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:10.128 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:10.265 +08:00 [INF] Received HTTP response headers after 468.9982ms - 200
+2023-03-24 13:45:10.265 +08:00 [INF] End processing HTTP request after 469.145ms - 200
+2023-03-24 13:45:10.266 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:10.266 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 520.6189ms
+2023-03-24 13:45:10.266 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:10.266 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 521
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (520 ms.)
+    {}
+
+2023-03-24 13:45:10.266 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 445 - 200 0 - 521.7500ms
+2023-03-24 13:45:10.739 +08:00 [INF] Received HTTP response headers after 610.0994ms - 200
+2023-03-24 13:45:10.739 +08:00 [INF] End processing HTTP request after 610.1928ms - 200
+2023-03-24 13:45:10.739 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:10.739 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 630.1307ms
+2023-03-24 13:45:10.739 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:10.739 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 631
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (630 ms.)
+    {}
+
+2023-03-24 13:45:10.740 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 631.6045ms
+2023-03-24 13:45:10.929 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:10.930 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:10.930 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:10.949 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:10.949 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:10.949 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.6721ms.
+2023-03-24 13:45:10.950 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:10.950 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:10.950 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:11.550 +08:00 [INF] Received HTTP response headers after 599.7837ms - 200
+2023-03-24 13:45:11.550 +08:00 [INF] End processing HTTP request after 599.9361ms - 200
+2023-03-24 13:45:11.550 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:11.550 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 620.3183ms
+2023-03-24 13:45:11.550 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:11.550 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 621
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (620 ms.)
+    {}
+
+2023-03-24 13:45:11.551 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 621.3834ms
+2023-03-24 13:45:11.730 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:11.730 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:11.730 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:11.750 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:11.751 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:11.751 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5666ms.
+2023-03-24 13:45:11.751 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:11.751 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:11.751 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:12.343 +08:00 [INF] Received HTTP response headers after 592.4746ms - 200
+2023-03-24 13:45:12.344 +08:00 [INF] End processing HTTP request after 592.5975ms - 200
+2023-03-24 13:45:12.344 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:12.344 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 613.8925ms
+2023-03-24 13:45:12.344 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:12.344 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 614
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (614 ms.)
+    {}
+
+2023-03-24 13:45:12.344 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 614.7792ms
+2023-03-24 13:45:12.520 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:12.520 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:12.520 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:12.548 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:12.549 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:12.549 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.6597ms.
+2023-03-24 13:45:12.549 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:12.549 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:12.549 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:13.111 +08:00 [INF] Received HTTP response headers after 561.9256ms - 200
+2023-03-24 13:45:13.111 +08:00 [INF] End processing HTTP request after 562.0395ms - 200
+2023-03-24 13:45:13.111 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:13.111 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 590.9545ms
+2023-03-24 13:45:13.111 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:13.111 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 591
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (591 ms.)
+    {}
+
+2023-03-24 13:45:13.112 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 592.0243ms
+2023-03-24 13:45:13.296 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:13.297 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:13.297 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:13.315 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:13.316 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:13.316 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5636ms.
+2023-03-24 13:45:13.316 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:13.316 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:13.316 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:13.880 +08:00 [INF] Received HTTP response headers after 563.5237ms - 200
+2023-03-24 13:45:13.880 +08:00 [INF] End processing HTTP request after 563.6606ms - 200
+2023-03-24 13:45:13.880 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:13.880 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 583.0867ms
+2023-03-24 13:45:13.880 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:13.880 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 583
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (583 ms.)
+    {}
+
+2023-03-24 13:45:13.880 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 584.0109ms
+2023-03-24 13:45:14.061 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:14.062 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:14.062 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:14.080 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:14.081 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:14.081 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5308ms.
+2023-03-24 13:45:14.081 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:14.081 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:14.081 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:14.649 +08:00 [INF] Received HTTP response headers after 567.8787ms - 200
+2023-03-24 13:45:14.649 +08:00 [INF] End processing HTTP request after 567.9801ms - 200
+2023-03-24 13:45:14.649 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:14.650 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 587.4369ms
+2023-03-24 13:45:14.650 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:14.650 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 588
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (587 ms.)
+    {}
+
+2023-03-24 13:45:14.650 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 588.3453ms
+2023-03-24 13:45:14.838 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:14.838 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:14.838 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:14.857 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:14.858 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:14.858 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.8013ms.
+2023-03-24 13:45:14.858 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:14.858 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:14.858 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:15.440 +08:00 [INF] Received HTTP response headers after 581.7614ms - 200
+2023-03-24 13:45:15.440 +08:00 [INF] End processing HTTP request after 581.8642ms - 200
+2023-03-24 13:45:15.441 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:15.441 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 602.1577ms
+2023-03-24 13:45:15.441 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:15.441 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 602
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (602 ms.)
+    {}
+
+2023-03-24 13:45:15.441 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 603.1710ms
+2023-03-24 13:45:15.618 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:15.619 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:15.619 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:15.638 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:15.639 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:15.639 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.7601ms.
+2023-03-24 13:45:15.639 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:15.639 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:15.639 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:16.232 +08:00 [INF] Received HTTP response headers after 593.2887ms - 200
+2023-03-24 13:45:16.233 +08:00 [INF] End processing HTTP request after 593.4798ms - 200
+2023-03-24 13:45:16.233 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:16.233 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 614.4071ms
+2023-03-24 13:45:16.233 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:16.233 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 615
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (614 ms.)
+    {}
+
+2023-03-24 13:45:16.234 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 615.5975ms
+2023-03-24 13:45:16.420 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:16.421 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:16.421 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:16.439 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:16.440 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:16.440 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.6884ms.
+2023-03-24 13:45:16.440 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:16.441 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:16.441 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:17.003 +08:00 [INF] Received HTTP response headers after 562.0605ms - 200
+2023-03-24 13:45:17.003 +08:00 [INF] End processing HTTP request after 562.1762ms - 200
+2023-03-24 13:45:17.003 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:17.003 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 582.3705ms
+2023-03-24 13:45:17.003 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:17.003 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 583
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (582 ms.)
+    {}
+
+2023-03-24 13:45:17.004 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 583.3219ms
+2023-03-24 13:45:17.185 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:17.186 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:17.186 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:17.206 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:17.206 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:17.206 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5606ms.
+2023-03-24 13:45:17.206 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:17.207 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:17.207 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:17.782 +08:00 [INF] Received HTTP response headers after 575.0704ms - 200
+2023-03-24 13:45:17.782 +08:00 [INF] End processing HTTP request after 575.1778ms - 200
+2023-03-24 13:45:17.782 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:17.782 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 596.193ms
+2023-03-24 13:45:17.782 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:17.782 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 596
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (596 ms.)
+    {}
+
+2023-03-24 13:45:17.782 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 597.1366ms
+2023-03-24 13:45:17.957 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:17.958 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:17.958 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:17.984 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:17.984 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:17.984 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5481ms.
+2023-03-24 13:45:17.984 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:17.985 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:17.985 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:18.582 +08:00 [INF] Received HTTP response headers after 597.3374ms - 200
+2023-03-24 13:45:18.582 +08:00 [INF] End processing HTTP request after 597.5389ms - 200
+2023-03-24 13:45:18.583 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:18.583 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 624.6437ms
+2023-03-24 13:45:18.583 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:18.583 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 625
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (624 ms.)
+    {}
+
+2023-03-24 13:45:18.583 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 625.6002ms
+2023-03-24 13:45:18.765 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:18.765 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:18.765 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:18.784 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:18.785 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:18.785 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.8561ms.
+2023-03-24 13:45:18.785 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:18.785 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:18.785 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:19.359 +08:00 [INF] Received HTTP response headers after 574.2849ms - 200
+2023-03-24 13:45:19.360 +08:00 [INF] End processing HTTP request after 574.3526ms - 200
+2023-03-24 13:45:19.360 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:19.360 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 594.2114ms
+2023-03-24 13:45:19.360 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:19.360 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 594
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (594 ms.)
+    {}
+
+2023-03-24 13:45:19.360 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 595.3676ms
+2023-03-24 13:45:19.542 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:19.542 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:19.542 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:19.561 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:19.561 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:19.561 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.4696ms.
+2023-03-24 13:45:19.561 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:19.561 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:19.561 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:20.137 +08:00 [INF] Received HTTP response headers after 575.4932ms - 200
+2023-03-24 13:45:20.137 +08:00 [INF] End processing HTTP request after 575.5858ms - 200
+2023-03-24 13:45:20.137 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:20.137 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 595.1049ms
+2023-03-24 13:45:20.137 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:20.138 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 595
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (595 ms.)
+    {}
+
+2023-03-24 13:45:20.138 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 595.9808ms
+2023-03-24 13:45:20.328 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:20.328 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:20.329 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:20.348 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:20.348 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:20.348 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5371ms.
+2023-03-24 13:45:20.349 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:20.349 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:20.349 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:20.928 +08:00 [INF] Received HTTP response headers after 578.8762ms - 200
+2023-03-24 13:45:20.928 +08:00 [INF] End processing HTTP request after 578.9943ms - 200
+2023-03-24 13:45:20.928 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:20.929 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 599.9354ms
+2023-03-24 13:45:20.929 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:20.929 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 600
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (600 ms.)
+    {}
+
+2023-03-24 13:45:20.929 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 601.0963ms
+2023-03-24 13:45:21.102 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:21.102 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:21.102 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:21.123 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:21.123 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:21.123 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.474ms.
+2023-03-24 13:45:21.123 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:21.124 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:21.124 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:21.695 +08:00 [INF] Received HTTP response headers after 570.9841ms - 200
+2023-03-24 13:45:21.695 +08:00 [INF] End processing HTTP request after 571.0763ms - 200
+2023-03-24 13:45:21.695 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:45:21.695 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 592.5166ms
+2023-03-24 13:45:21.695 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:21.695 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 593
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (592 ms.)
+    {}
+
+2023-03-24 13:45:21.695 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215 - 200 0 - 593.5636ms
+2023-03-24 13:45:21.832 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 179
+2023-03-24 13:45:21.832 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:21.832 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:21.833 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 215
+2023-03-24 13:45:21.834 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:45:21.834 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:45:21.855 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:21.873 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:45:21.874 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 975447334, NickName = 春, Remark =  }, FriendName = 春, FriendRemark = , FriendId = 975447334 }
+2023-03-24 13:45:21.874 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 2467703805, NickName = Slarkerino, Remark = Slarkerino }, FriendName = Slarkerino, FriendRemark = Slarkerino, FriendId = 2467703805 }
+2023-03-24 13:45:21.874 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 18.3821ms.
+2023-03-24 13:45:21.874 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5582ms.
+2023-03-24 13:45:21.874 +08:00 [INF] Slarkerino发送了一条消息
+2023-03-24 13:45:21.874 +08:00 [INF] 春发送了一条消息
+2023-03-24 13:45:21.874 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:21.874 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:21.874 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:45:21.874 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:47:50.085 +08:00 [INF] Starting web host.
+2023-03-24 13:47:52.210 +08:00 [INF] Loaded ABP modules:
+2023-03-24 13:47:52.211 +08:00 [INF] - Abp.Mirai.Demo.DemoHttpApiHostModule
+2023-03-24 13:47:52.211 +08:00 [INF]   - Abp.Mirai.Http.AbpMiraiHttpModule
+2023-03-24 13:47:52.211 +08:00 [INF]     - Abp.Mirai.Common.AbpMiraiCommonModule
+2023-03-24 13:47:52.211 +08:00 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2023-03-24 13:47:52.211 +08:00 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2023-03-24 13:47:52.211 +08:00 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2023-03-24 13:47:52.211 +08:00 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-03-24 13:47:52.211 +08:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-03-24 13:47:52.211 +08:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2023-03-24 13:47:52.211 +08:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-03-24 13:47:52.211 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-03-24 13:47:52.211 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-03-24 13:47:52.211 +08:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-03-24 13:47:52.211 +08:00 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2023-03-24 13:47:52.211 +08:00 [INF]       - Volo.Abp.Json.AbpJsonModule
+2023-03-24 13:47:52.211 +08:00 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-03-24 13:47:52.211 +08:00 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-03-24 13:47:52.211 +08:00 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2023-03-24 13:47:52.211 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-03-24 13:47:52.211 +08:00 [INF]   - Abp.Mirai.Webhook.AbpMiraiWebhookModule
+2023-03-24 13:47:52.211 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-03-24 13:47:52.211 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-03-24 13:47:52.211 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-03-24 13:47:52.211 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-03-24 13:47:52.211 +08:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-03-24 13:47:52.211 +08:00 [INF]             - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.Auditing.AbpAuditingModule
+2023-03-24 13:47:52.211 +08:00 [INF]                 - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.Http.AbpHttpModule
+2023-03-24 13:47:52.211 +08:00 [INF]                 - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-03-24 13:47:52.211 +08:00 [INF]                 - Volo.Abp.Minify.AbpMinifyModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-03-24 13:47:52.211 +08:00 [INF]                 - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.Validation.AbpValidationModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-03-24 13:47:52.211 +08:00 [INF]             - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-03-24 13:47:52.211 +08:00 [INF]             - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-03-24 13:47:52.211 +08:00 [INF]             - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.UI.AbpUiModule
+2023-03-24 13:47:52.211 +08:00 [INF]             - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-03-24 13:47:52.211 +08:00 [INF]             - Volo.Abp.Application.AbpDddApplicationModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.Domain.AbpDddDomainModule
+2023-03-24 13:47:52.211 +08:00 [INF]                 - Volo.Abp.EventBus.AbpEventBusModule
+2023-03-24 13:47:52.211 +08:00 [INF]                   - Volo.Abp.Guids.AbpGuidsModule
+2023-03-24 13:47:52.211 +08:00 [INF]                   - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-03-24 13:47:52.211 +08:00 [INF]                   - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-03-24 13:47:52.211 +08:00 [INF]                 - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-03-24 13:47:52.211 +08:00 [INF]                 - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-03-24 13:47:52.211 +08:00 [INF]               - Volo.Abp.Features.AbpFeaturesModule
+2023-03-24 13:47:52.211 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-03-24 13:47:52.211 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-03-24 13:47:52.211 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-03-24 13:47:52.211 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-03-24 13:47:52.211 +08:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-03-24 13:47:52.211 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-03-24 13:47:52.211 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-03-24 13:47:52.211 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-03-24 13:47:52.211 +08:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-03-24 13:47:52.521 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-24 13:47:52.585 +08:00 [INF] Initialized all ABP modules.
+2023-03-24 13:47:52.674 +08:00 [INF] Now listening on: http://localhost:5000
+2023-03-24 13:47:52.674 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-24 13:47:52.674 +08:00 [INF] Hosting environment: Development
+2023-03-24 13:47:52.674 +08:00 [INF] Content root path: H:\OpenSourceProject\Abp.Mirai\demo\Abp.Mirai.Demo.HttpApi.Host
+2023-03-24 13:47:52.972 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2023-03-24 13:47:53.014 +08:00 [WRN] Failed to determine the https port for redirect.
+2023-03-24 13:47:53.266 +08:00 [INF] Executing endpoint 'Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host)'
+2023-03-24 13:47:53.304 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Abp.Mirai.Demo.Controllers.HomeController (Abp.Mirai.Demo.HttpApi.Host).
+2023-03-24 13:47:53.460 +08:00 [INF] Executing action method Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host) - Validation state: "Valid"
+2023-03-24 13:47:53.463 +08:00 [INF] Executed action method Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3257ms.
+2023-03-24 13:47:53.472 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2023-03-24 13:47:53.478 +08:00 [INF] Executed action Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host) in 170.6909ms
+2023-03-24 13:47:53.479 +08:00 [INF] Executed endpoint 'Abp.Mirai.Demo.Controllers.HomeController.Index (Abp.Mirai.Demo.HttpApi.Host)'
+2023-03-24 13:47:53.495 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 302 0 - 523.3537ms
+2023-03-24 13:47:53.497 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2023-03-24 13:47:53.702 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 204.7904ms
+2023-03-24 13:47:53.720 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-03-24 13:47:53.727 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12024 application/javascript;+charset=utf-8 6.4510ms
+2023-03-24 13:47:53.738 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2023-03-24 13:47:53.800 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.3549ms
+2023-03-24 13:47:53.902 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2023-03-24 13:47:54.178 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 275.8020ms
+2023-03-24 13:48:53.486 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 183
+2023-03-24 13:48:53.488 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:48:53.495 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:48:53.525 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:48:53.656 +08:00 [INF] FriendMessageReceiver { Type = Friend, QQ = 2467703805, MessageChain = Abp.Mirai.Common.Data.Messages.MessageChain, Sender = Friend { Id = 1424494142, NickName = 困困, Remark = 困困 }, FriendName = 困困, FriendRemark = 困困, FriendId = 1424494142 }
+2023-03-24 13:48:53.657 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 131.7721ms.
+2023-03-24 13:49:01.560 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/verify
+2023-03-24 13:49:01.561 +08:00 [INF] Sending HTTP request POST http://localhost:8080/verify
+2023-03-24 13:49:03.695 +08:00 [INF] Received HTTP response headers after 2132.2388ms - 200
+2023-03-24 13:49:03.695 +08:00 [INF] End processing HTTP request after 2137.0725ms - 200
+2023-03-24 13:49:03.699 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/bind
+2023-03-24 13:49:03.699 +08:00 [INF] Sending HTTP request POST http://localhost:8080/bind
+2023-03-24 13:49:03.730 +08:00 [INF] Received HTTP response headers after 31.807ms - 200
+2023-03-24 13:49:03.730 +08:00 [INF] End processing HTTP request after 31.94ms - 200
+2023-03-24 13:49:03.740 +08:00 [INF] Start processing HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:49:03.740 +08:00 [INF] Sending HTTP request POST http://localhost:8080/sendFriendMessage
+2023-03-24 13:49:04.197 +08:00 [INF] Received HTTP response headers after 456.8669ms - 200
+2023-03-24 13:49:04.197 +08:00 [INF] End processing HTTP request after 457.0599ms - 200
+2023-03-24 13:49:04.205 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:49:04.206 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 10711.5632ms
+2023-03-24 13:49:04.206 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:49:04.211 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 10720
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (10704 ms.)
+    {}
+
+2023-03-24 13:49:04.212 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 183 - 0 - - 10725.9897ms
+2023-03-24 13:49:20.747 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 80
+2023-03-24 13:49:20.747 +08:00 [INF] Executing endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:49:20.748 +08:00 [INF] Route matched with {area = "AbpMirai", controller = "Mirai", action = "Notify", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Notify() on controller Abp.Mirai.Webhook.Controllers.MiraiController (Abp.Mirai.Webhook).
+2023-03-24 13:49:20.767 +08:00 [INF] Executing action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) - Validation state: "Valid"
+2023-03-24 13:49:20.774 +08:00 [INF] Executed action method Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook), returned result Microsoft.AspNetCore.Mvc.OkResult in 6.9355ms.
+2023-03-24 13:49:20.774 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-24 13:49:20.774 +08:00 [INF] Executed action Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook) in 26.3681ms
+2023-03-24 13:49:20.774 +08:00 [INF] Executed endpoint 'Abp.Mirai.Webhook.Controllers.MiraiController.Notify (Abp.Mirai.Webhook)'
+2023-03-24 13:49:20.774 +08:00 [INF] AUDIT LOG: [200: POST   ] /mirai/notify
+- UserName - UserId                 :  - 
+- ClientIpAddress        : 127.0.0.1
+- ExecutionDuration      : 27
+- Actions:
+  - Abp.Mirai.Webhook.Controllers.MiraiController.Notify (26 ms.)
+    {}
+
+2023-03-24 13:49:20.774 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/mirai/notify application/json;+charset=UTF-8 80 - 200 0 - 27.7656ms
