@@ -1,7 +1,7 @@
-# Abp.WeChat
+# Abp.Mirai
 
 
-针对 ABP vNext 框架，封装的mirai-api-http模块，包含对http、websocket、reverse websocket、webhook4种协议的支持
+针对 ABP vNext 框架，封装的mirai-api-http模块，包含对http、websocket、reverse websocket、webhook的4种协议的支持
 
 > 推荐结合Mirai团队的[mirai-api-http](https://github.com/project-mirai/mirai-api-http)使用
 
