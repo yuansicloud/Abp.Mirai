@@ -89,6 +89,6 @@ namespace Abp.Mirai.Common.Services
         /// <param name="messageId"></param>
         /// <param name="chain"></param>
         /// <returns></returns>
-        Task<string> QuoteTempMessageAsync(string memberId, string group, string messageId, MessageChain chain);
+        Task<string> QuoteTempMessageAsync(string memberId, string group, string messageId, MessageChain chain, string? qq = null);
     }
 }
