@@ -16,8 +16,8 @@ namespace Abp.Mirai.Demo.Subscribers
           ITransientDependency
     {
         private readonly ILogger<FriendMessageSubscriber> _logger;
-        private readonly IMessageManager _messageManager;
-        public FriendMessageSubscriber(ILogger<FriendMessageSubscriber> logger, IMessageManager messageManager)
+        private readonly IMiraiMessageManager _messageManager;
+        public FriendMessageSubscriber(ILogger<FriendMessageSubscriber> logger, IMiraiMessageManager messageManager)
         {
             _logger = logger;
             _messageManager = messageManager;

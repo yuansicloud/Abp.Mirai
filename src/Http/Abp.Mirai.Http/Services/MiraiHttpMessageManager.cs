@@ -9,7 +9,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Abp.Mirai.Http.Services
 {
-    public class MiraiHttpMessageManager : MiraiHttpCommonService, IMessageManager
+    public class MiraiHttpMessageManager : MiraiHttpCommonService, IMiraiMessageManager
     {
         public async Task<T> GetMessageReceiverByIdAsync<T>(string messageId, string target, string? qq = null) where T : MessageReceiverBase
         {
@@ -22,7 +22,7 @@ namespace Abp.Mirai.Http.Services
             var jObj = await MiraiHttpApiRequester.RequestAsync(HttpEndpoints.RoamingMessages, HttpMethod.Get, payload, qq);
 
             var receiver = JsonConvert.DeserializeObject<T>(jObj.ToString())!;
-            receiver.MessageChain = jObj.Fetch("data").Fetch("messageChain").DeserializeMessageChain();
+            receiver.MessageChain = jObj.Fetch("data").Fetch("messageChain").DeserializeMessageChain(); 
 
             return receiver;
         }

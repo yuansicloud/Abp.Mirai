@@ -2,7 +2,7 @@
 
 namespace Abp.Mirai.Common.Services
 {
-    public interface IMessageManager
+    public interface IMiraiMessageManager
     {
 
         /// <summary>
