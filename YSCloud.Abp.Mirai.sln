@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{41EB6477-AFD0-4A05-A7B1-A143120F55B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C65BE5FB-301A-494A-B7CF-1B1EDC8F7688}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http", "Http", "{4BA6A7A6-2F54-4240-9C98-BF633437B966}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{2B3972BD-FE34-4D50-B0C9-AFF4CAF9227E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B3B5581B-1168-4C4D-AE7C-1666D1325975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Webhook", "Webhook", "{E6B18F31-44DF-485D-8CB2-24AF5473ED9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YSCloud.Abp.Mirai.Demo.HttpApi.Host", "demo\YSCloud.Abp.Mirai.Demo.HttpApi.Host\YSCloud.Abp.Mirai.Demo.HttpApi.Host.csproj", "{BE8CDF63-8F2B-4370-A62B-1BA34FB1202B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YSCloud.Abp.Mirai.Common.Tests", "tests\YSCloud.Abp.Mirai.Common.Tests\YSCloud.Abp.Mirai.Common.Tests.csproj", "{3140097C-A50B-4857-BA69-3FA50D49DCB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YSCloud.Abp.Mirai.Http.Tests", "tests\YSCloud.Abp.Mirai.Http.Tests\YSCloud.Abp.Mirai.Http.Tests.csproj", "{CFB165ED-3280-4488-83A0-53182378C14A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YSCloud.Abp.Mirai.Webhook", "src\Webhook\YSCloud.Abp.Mirai.Webhook\YSCloud.Abp.Mirai.Webhook.csproj", "{0FADCA39-BF06-4578-A375-D8D88826EAE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YSCloud.Abp.Mirai.Common", "src\Common\YSCloud.Abp.Mirai.Common\YSCloud.Abp.Mirai.Common.csproj", "{F956EC5E-CFE8-4F88-BBED-5180DD7E91A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YSCloud.Abp.Mirai.Http", "src\Http\YSCloud.Abp.Mirai.Http\YSCloud.Abp.Mirai.Http.csproj", "{146A95D6-1BD5-47AE-A3AF-6E66DBE8E478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE8CDF63-8F2B-4370-A62B-1BA34FB1202B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8CDF63-8F2B-4370-A62B-1BA34FB1202B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8CDF63-8F2B-4370-A62B-1BA34FB1202B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8CDF63-8F2B-4370-A62B-1BA34FB1202B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3140097C-A50B-4857-BA69-3FA50D49DCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3140097C-A50B-4857-BA69-3FA50D49DCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3140097C-A50B-4857-BA69-3FA50D49DCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3140097C-A50B-4857-BA69-3FA50D49DCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB165ED-3280-4488-83A0-53182378C14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB165ED-3280-4488-83A0-53182378C14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB165ED-3280-4488-83A0-53182378C14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB165ED-3280-4488-83A0-53182378C14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FADCA39-BF06-4578-A375-D8D88826EAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FADCA39-BF06-4578-A375-D8D88826EAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FADCA39-BF06-4578-A375-D8D88826EAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FADCA39-BF06-4578-A375-D8D88826EAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F956EC5E-CFE8-4F88-BBED-5180DD7E91A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F956EC5E-CFE8-4F88-BBED-5180DD7E91A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F956EC5E-CFE8-4F88-BBED-5180DD7E91A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F956EC5E-CFE8-4F88-BBED-5180DD7E91A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146A95D6-1BD5-47AE-A3AF-6E66DBE8E478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146A95D6-1BD5-47AE-A3AF-6E66DBE8E478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146A95D6-1BD5-47AE-A3AF-6E66DBE8E478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146A95D6-1BD5-47AE-A3AF-6E66DBE8E478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C65BE5FB-301A-494A-B7CF-1B1EDC8F7688} = {41EB6477-AFD0-4A05-A7B1-A143120F55B9}
+		{4BA6A7A6-2F54-4240-9C98-BF633437B966} = {41EB6477-AFD0-4A05-A7B1-A143120F55B9}
+		{E6B18F31-44DF-485D-8CB2-24AF5473ED9F} = {41EB6477-AFD0-4A05-A7B1-A143120F55B9}
+		{BE8CDF63-8F2B-4370-A62B-1BA34FB1202B} = {2B3972BD-FE34-4D50-B0C9-AFF4CAF9227E}
+		{3140097C-A50B-4857-BA69-3FA50D49DCB6} = {B3B5581B-1168-4C4D-AE7C-1666D1325975}
+		{CFB165ED-3280-4488-83A0-53182378C14A} = {B3B5581B-1168-4C4D-AE7C-1666D1325975}
+		{0FADCA39-BF06-4578-A375-D8D88826EAE9} = {E6B18F31-44DF-485D-8CB2-24AF5473ED9F}
+		{F956EC5E-CFE8-4F88-BBED-5180DD7E91A9} = {C65BE5FB-301A-494A-B7CF-1B1EDC8F7688}
+		{146A95D6-1BD5-47AE-A3AF-6E66DBE8E478} = {4BA6A7A6-2F54-4240-9C98-BF633437B966}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63E2660C-C1D9-4768-90FD-289F36581842}
+	EndGlobalSection
+EndGlobal

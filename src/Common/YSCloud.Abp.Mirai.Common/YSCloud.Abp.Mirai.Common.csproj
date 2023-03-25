@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\..\common.props" />
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<Description>ABP Mirai模块，定义了Mirai Http公用的组件。</Description>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Manganese" Version="1.2.2" />
+		<PackageReference Include="Volo.Abp.Core" Version="$(AbpVersion)" />
+		<PackageReference Include="Volo.Abp.EventBus" Version="$(AbpVersion)" />
+	</ItemGroup>
+
+</Project>

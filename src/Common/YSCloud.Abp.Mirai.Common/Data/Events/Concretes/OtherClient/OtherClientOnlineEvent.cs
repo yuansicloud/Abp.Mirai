@@ -1,0 +1,27 @@
+﻿using Newtonsoft.Json;
+using YSCloud.Abp.Mirai.Common.Data.Events;
+
+namespace YSCloud.Abp.Mirai.Common.Data.Events.Concretes.OtherClient;
+
+/// <summary>
+/// 其它客户端上线
+/// </summary>
+public record OtherClientOnlineEvent : EventBase
+{
+    /// <summary>
+    /// 事件类型
+    /// </summary>
+    public override Events Type { get; set; } = Events.OtherClientOnline;
+
+    /// <summary>
+    /// 啥客户端
+    /// </summary>
+    [JsonProperty("client")]
+    public Shared.OtherClient Client { get; set; }
+
+    /// <summary>
+    /// 详细设备类型
+    /// </summary>
+    [JsonProperty("kind")]
+    public long Kind { get; set; }
+}

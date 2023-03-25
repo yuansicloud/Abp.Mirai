@@ -1,0 +1,37 @@
+﻿using System;
+using System.Runtime.Serialization;
+using Volo.Abp;
+
+namespace YSCloud.Abp.Mirai.Http.Exceptions;
+
+/// <summary>
+///     地址错误异常
+/// </summary>
+[Serializable]
+public class InvalidAddressException : AbpException
+{
+    //
+    // For guidelines regarding the creation of new exception types, see
+    //    http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpgenref/html/cpconerrorraisinghandlingguidelines.asp
+    // and
+    //    http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dncscol/html/csharp07192001.asp
+    //
+
+    public InvalidAddressException()
+    {
+    }
+
+    public InvalidAddressException(string message) : base(message)
+    {
+    }
+
+    public InvalidAddressException(string message, Exception inner) : base(message, inner)
+    {
+    }
+
+    public InvalidAddressException(
+        SerializationInfo info,
+        StreamingContext context) : base(info, context)
+    {
+    }
+}
