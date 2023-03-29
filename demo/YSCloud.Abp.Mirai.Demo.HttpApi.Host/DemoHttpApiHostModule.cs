@@ -20,7 +20,9 @@ using Volo.Abp.Modularity;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.Swashbuckle;
 using YSCloud.Abp.Mirai.Common.Handlers;
+using YSCloud.Abp.Mirai.Common.Services;
 using YSCloud.Abp.Mirai.Http;
+using YSCloud.Abp.Mirai.Http.Services;
 using YSCloud.Abp.Mirai.Webhook;
 
 namespace YSCloud.Abp.Mirai.Demo.HttpApi.Host;
@@ -42,7 +44,7 @@ public class DemoHttpApiHostModule : AbpModule
         var configuration = context.Services.GetConfiguration();
 
         context.Services.AddTransient<IMiraiMessageHandler, DefaultMiraiMessageHandler>();
-
+        context.Services.AddTransient<IMiraiMessageManager, MiraiHttpMessageManager>();
 
         Configure<AbpMiraiHttpOptions>(op =>
         {

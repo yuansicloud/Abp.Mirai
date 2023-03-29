@@ -34,9 +34,13 @@ namespace YSCloud.Abp.Mirai.Demo.HttpApi.Host.Subscribers
                 return;
             }
 
-            await _messageManager.SendFriendMessageAsync(eventData.FriendId, new MessageChain {
-                new PlainMessage("收到宝宝的消息拉！")
-            }, eventData.QQ);
+            var res = new MessageChain {
+                new PlainMessage("收到宝宝的消息拉: ")
+            };
+
+            res.AddRange(eventData.MessageChain);
+
+            await _messageManager.SendFriendMessageAsync(eventData.FriendId, res, eventData.QQ);
         }
     }
 }
